@@ -1,0 +1,33 @@
+.hamburger-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background: var(--blue-color);
+    border: 2px solid red;
+    display: none;
+}
+
+.responsive-navbar li {
+    text-align: center;
+    list-style: none;
+    padding: 30px 0;
+}
+
+.responsive-navbar a {
+    color: var(--font-white-color);
+    font-size: 30px;
+}
+
+.hamburger-menu .social-media {
+    border: 2px solid red;
+    text-align: center;
+}
+
+.hamburger-menu .social-media i {
+    color: var(--font-white-color);
+    font-size: 3rem;
+    margin: 10px 30px;
+}
